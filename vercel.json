@@ -1,12 +1,22 @@
 {
   "rewrites": [
     {
-      "source": "/about/about.html",
-      "destination": "https://about.myproject.vercel.app"
+      "source": "/about",
+      "destination": "/about.html"
     },
     {
-      "source": "/service/service.html",
-      "destination": "https://services.myproject.vercel.app"
+      "source": "/services",
+      "destination": "/services.html"
+    }
+  ],
+  "routes": [
+    {
+      "src": "about.your-domain.com",
+      "dest": "/public/about/about.html"
+    },
+    {
+      "src": "services.your-domain.com",
+      "dest": "/public/service/services.html"
     }
   ]
 }
