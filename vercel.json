@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/about/about.html",
+      "destination": "https://about.myproject.vercel.app"
+    },
+    {
+      "source": "/service/service.html",
+      "destination": "https://services.myproject.vercel.app"
+    }
+  ]
+}
